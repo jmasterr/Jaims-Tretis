@@ -1,0 +1,51 @@
+body {
+    border: 15px solid rgba(42, 112, 177,.8);
+    padding: 50px;
+    background-image: url(https://img.freepik.com/premium-photo/colorful-lightup-boxes-stacked-against-purple-background_841543-23457.jpg);
+    font-family: '8BIT WONDER', sans-serif;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+#game-field {
+    border: 2px solid rgb(194, 18, 18);
+    background-image: url(https://w0.peakpx.com/wallpaper/139/53/HD-wallpaper-tetris-pattern-tetris-blocks-blue-bricks-build-c0y0te7-game-gameboy-gamer-gaming-greey-neon-nintendo-pattern-purple-turquoise-video-viedo-game.jpg);
+}
+#game-board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(10,30px);
+    grid-template-rows: repeat(20,30px);
+}
+.cell {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: black;
+}
+#level {
+    border: 2px solid rgb(135, 255, 36);
+    padding:13px;
+    background-color: rgba(135, 255, 36, .4);
+}
+#title {
+    border: 2px solid rgb(255, 233, 33);
+    padding:13px;
+    background-color: darkcyan;
+    margin-bottom: 20px;
+}
+#score {
+    border: 2px solid rgb(218, 36, 255);
+    padding:13px;
+    background-color:rgba(218, 36, 255, .4)
+}
+#on-field-titles {
+    display: flex;
+    justify-content:space-between;
+}
+#btn {
+    font-family: '8BIT WONDER', sans-serif;
+    padding: 13px;
+    border: 2px solid orange;
+    background-color: rgba(255, 165, 0, .4);
+}

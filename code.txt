@@ -1,9 +1,0 @@
-I want to make a big grid with alot of boxes, for when a line is completed it will remove the line and give me my points.
-
-I dont know how I want the blocks to rotate but I do(this part is crucial for the game).
-
-The blocks will be falling down a slow rate in the first level and fall quicker the higher the level is.
-^^^^ I think this will be made kinda like the dots game, how the dots would move at different speeds.
-
-I want my game to have music (I dont know if its copywrite by using a tetris song for it)
-^^^^^ Everytime I finish a row I want there to be sound.
